@@ -1,0 +1,273 @@
+{
+    "id": "bd97021e-1d57-4662-858b-1fbfb18d5f0f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "3b64bee2-8c71-4248-aa33-d6390122c729",
+            "label": "container_1",
+            "components": [],
+            "y": 1,
+            "scaleX": 0,
+            "scaleY": 0,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "be8412a6-716a-4b63-91b7-70e4500f0d38",
+                    "label": "winContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "8bc02749-b325-43c6-896e-0dd4ed56286d",
+                            "label": "box_win",
+                            "components": [],
+                            "texture": {
+                                "key": "box-win"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ece0f37d-5fc4-492b-bab0-9951424fd1ed",
+                            "label": "levelNumberText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": -285,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "fontFamily": "Futura",
+                            "fontSize": "48px",
+                            "fontStyle": "bold",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.blur": 5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6f80307e-b627-4457-8ba1-eacbc7eb6fda",
+                            "label": "levelCompletedText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": -100,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "LEVEL COMPLETED",
+                            "fontFamily": "Futura",
+                            "fontSize": "54px",
+                            "fontStyle": "bold",
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.blur": 10
+                        },
+                        {
+                            "type": "Container",
+                            "id": "11844e9e-fc15-4650-95c8-d90f6516d393",
+                            "label": "retryBtnContainer",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -250,
+                            "y": 300,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "3b82d502-038a-48ef-9b30-5794cc7a66e7",
+                                    "label": "retryBtn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "retry-btn"
+                                    }
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "33efbccd-0356-4f80-8a97-a83657f1e8dd",
+                                    "label": "retryText",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "RETRY",
+                                    "fontFamily": "Futura",
+                                    "fontSize": "48px",
+                                    "fontStyle": "bold",
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.blur": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "b3354a7b-9964-4ce4-b1d6-f954636a1a2c",
+                            "label": "nextBtnContainer",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 250,
+                            "y": 300,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "86b22d88-415c-4240-80b3-b009f6149269",
+                                    "label": "nextBtn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "next-btn"
+                                    }
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "008e2131-c827-4dee-a981-c5c40089b839",
+                                    "label": "nextText",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "NEXT",
+                                    "fontFamily": "Futura",
+                                    "fontSize": "48px",
+                                    "fontStyle": "bold",
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.blur": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "64409590-d0da-4dba-858a-3fb635438abc",
+                            "label": "homeBtnWin",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "home-btn"
+                            },
+                            "y": 300
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "f295b7bd-af98-4134-9e28-af1bd77b8feb",
+                    "label": "loseContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "da594d1e-01ea-4247-ae23-cd81c076d361",
+                            "label": "box_lose",
+                            "components": [],
+                            "texture": {
+                                "key": "box-lose"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "id": "807023be-e26b-401d-a9bf-87adeeac0b3f",
+                            "label": "loseLevelNumberText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": -285,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "fontFamily": "Futura",
+                            "fontSize": "48px",
+                            "fontStyle": "bold",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.blur": 5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0d9c16c6-d70d-4e3a-97d2-d29d79afc684",
+                            "label": "levelFailedText",
+                            "scope": "CLASS",
+                            "components": [],
+                            "y": -100,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "LEVEL FAILED",
+                            "fontFamily": "Futura",
+                            "fontSize": "54px",
+                            "fontStyle": "bold",
+                            "shadow.stroke": true,
+                            "shadow.fill": true,
+                            "shadow.blur": 10
+                        },
+                        {
+                            "type": "Container",
+                            "id": "15e2e7ef-e2d7-4577-b7c2-8b0837b1f966",
+                            "label": "loseRetryBtnContainer",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 75,
+                            "y": 300,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "cf0621c7-969a-464d-ba3f-cf3c827d90a6",
+                                    "label": "loseRetryBtn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "retry"
+                                    }
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "01d7c89d-539c-4f6d-be9d-d36dac70a38b",
+                                    "label": "retryBtnText",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "RETRY",
+                                    "fontFamily": "Futura",
+                                    "fontSize": "48px",
+                                    "fontStyle": "bold",
+                                    "shadow.stroke": true,
+                                    "shadow.fill": true,
+                                    "shadow.blur": 10
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "29e4a82a-d069-41c6-ae8a-e4f074a550f7",
+                            "label": "homeBtnLose",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "home-btn"
+                            },
+                            "x": -175,
+                            "y": 300
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

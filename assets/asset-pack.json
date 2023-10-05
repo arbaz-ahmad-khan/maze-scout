@@ -1,0 +1,163 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/images/popup/black-layer.png",
+                "type": "image",
+                "key": "black-layer"
+            },
+            {
+                "url": "assets/images/box-filled.png",
+                "type": "image",
+                "key": "box-filled"
+            },
+            {
+                "url": "assets/images/popup/box-lose.png",
+                "type": "image",
+                "key": "box-lose"
+            },
+            {
+                "url": "assets/images/box-tile.png",
+                "type": "image",
+                "key": "box-tile"
+            },
+            {
+                "url": "assets/images/popup/box-win.png",
+                "type": "image",
+                "key": "box-win"
+            },
+            {
+                "url": "assets/images/smoke/brown.png",
+                "type": "image",
+                "key": "brown"
+            },
+            {
+                "url": "assets/images/character/character.png",
+                "type": "image",
+                "key": "character"
+            },
+            {
+                "url": "assets/images/player/character-eyeball.png",
+                "type": "image",
+                "key": "character-eyeball"
+            },
+            {
+                "url": "assets/images/player/character-without-eyes.png",
+                "type": "image",
+                "key": "character-without-eyes"
+            },
+            {
+                "url": "assets/images/smoke/cream.png",
+                "type": "image",
+                "key": "cream"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/popup/home-btn.png",
+                "type": "image",
+                "key": "home-btn"
+            },
+            {
+                "url": "assets/images/icons/info.png",
+                "type": "image",
+                "key": "info"
+            },
+            {
+                "url": "assets/images/icons/music.png",
+                "type": "image",
+                "key": "music"
+            },
+            {
+                "url": "assets/images/icons/music-off.png",
+                "type": "image",
+                "key": "music-off"
+            },
+            {
+                "url": "assets/images/popup/next-btn.png",
+                "type": "image",
+                "key": "next-btn"
+            },
+            {
+                "url": "src/prefabs/Player.js",
+                "type": "script",
+                "key": "Player"
+            },
+            {
+                "url": "assets/images/levelComplete/playerWin.png",
+                "type": "image",
+                "key": "playerWin"
+            },
+            {
+                "url": "assets/images/popup/pop-up.png",
+                "type": "image",
+                "key": "pop-up"
+            },
+            {
+                "url": "src/prefabs/PopupPrefab.js",
+                "type": "script",
+                "key": "PopupPrefab"
+            },
+            {
+                "url": "assets/images/popup/retry.png",
+                "type": "image",
+                "key": "retry"
+            },
+            {
+                "url": "assets/images/popup/retry-btn.png",
+                "type": "image",
+                "key": "retry-btn"
+            },
+            {
+                "url": "assets/images/sand-bg.png",
+                "type": "image",
+                "key": "sand-bg"
+            },
+            {
+                "url": "assets/images/icons/setting.png",
+                "type": "image",
+                "key": "setting"
+            },
+            {
+                "url": "src/prefabs/SettingsPrefab.js",
+                "type": "script",
+                "key": "SettingsPrefab"
+            },
+            {
+                "url": "assets/images/icons/sound.png",
+                "type": "image",
+                "key": "sound"
+            },
+            {
+                "url": "assets/images/icons/sound-off.png",
+                "type": "image",
+                "key": "sound-off"
+            },
+            {
+                "url": "assets/images/levelComplete/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": "assets/images/smoke/white.png",
+                "type": "image",
+                "key": "white"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

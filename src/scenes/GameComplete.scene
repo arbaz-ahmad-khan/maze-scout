@@ -1,0 +1,130 @@
+{
+    "id": "88816579-ee70-4014-bf03-4714147cbed6",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameComplete",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d4cc7913-0992-4fe8-932c-22d56874bd38",
+            "label": "black_layer",
+            "texture": {
+                "key": "black-layer"
+            },
+            "x": 960,
+            "y": 540
+        },
+        {
+            "type": "Container",
+            "id": "8819419a-b425-422b-9676-dbaee9252483",
+            "label": "bgContainer",
+            "scope": "CLASS",
+            "x": 960,
+            "y": 455,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "5b2c2fea-46e2-43b7-a5d6-05a3db22620d",
+                    "label": "pop_up",
+                    "texture": {
+                        "key": "pop-up"
+                    },
+                    "y": 85
+                },
+                {
+                    "type": "Image",
+                    "id": "c7ed2919-7678-486a-93b9-7b6d019887ac",
+                    "label": "playerWin",
+                    "texture": {
+                        "key": "playerWin"
+                    },
+                    "x": -6,
+                    "y": 85,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
+                },
+                {
+                    "type": "Image",
+                    "id": "23258fa1-c232-44d3-8ad5-e6f066075ee7",
+                    "label": "star",
+                    "texture": {
+                        "key": "star"
+                    },
+                    "x": -206,
+                    "y": 86
+                },
+                {
+                    "type": "Image",
+                    "id": "13154b90-c545-4300-8e15-c0b2cecd7630",
+                    "label": "star_1",
+                    "texture": {
+                        "key": "star"
+                    },
+                    "x": 190,
+                    "y": 86
+                },
+                {
+                    "type": "Text",
+                    "id": "e512449b-6e09-4a07-b05e-7760bb97e93c",
+                    "label": "congratsText",
+                    "scope": "CLASS",
+                    "y": 83,
+                    "scaleX": 0,
+                    "scaleY": 0,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "CONGRATULATIONS!",
+                    "fontFamily": "Futura",
+                    "fontSize": "56px",
+                    "fontStyle": "bold",
+                    "color": "#ca5a2c",
+                    "shadow.blur": 2
+                },
+                {
+                    "type": "Text",
+                    "id": "db65d2a9-cdb9-4000-a4fe-ac820ae7d0ba",
+                    "label": "infoText",
+                    "scope": "CLASS",
+                    "y": 288,
+                    "scaleX": 0,
+                    "scaleY": 0,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "YOU HAVE COMPLETED\nALL THE LEVELS!",
+                    "fixedWidth": 560,
+                    "fixedHeight": 200,
+                    "align": "center",
+                    "fontFamily": "Futura",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.blur": 5,
+                    "wordWrapWidth": 555
+                },
+                {
+                    "type": "Image",
+                    "id": "f536e28f-87e5-47ee-97ed-52b26025d4b6",
+                    "label": "homeBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "home-btn"
+                    },
+                    "y": 378
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

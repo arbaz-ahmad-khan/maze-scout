@@ -1,0 +1,69 @@
+{
+    "id": "6314cc7f-f13f-455b-be2d-e2e5be6ad8ec",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "07be4921-eebd-4eb2-a2b4-b6b0900bd88d",
+            "label": "settingsContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3bf58ddb-d9a3-420c-a06f-0297795ec44b",
+                    "label": "infoIcon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "info"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "3ba0ef87-7325-4665-8493-93ccbf211761",
+                    "label": "musicIcon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "music"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "a4e72516-2448-4424-8411-72414dbe9fed",
+                    "label": "soundIcon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "sound"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "f8d286a3-96b0-43a9-96a3-70964f15209a",
+                    "label": "settingIcon",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "setting"
+                    }
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
